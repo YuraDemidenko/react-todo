@@ -26,6 +26,16 @@
   height: 24px;
   width: 24px;
   border-radius: 5px;
+  position: relative;
+}
+
+.deliteBtn::after {
+  content: "-";
+  display: inline-block;
+  color: #ffff;
+  position: absolute;
+  top: -5px;
+  left: 7px;
 }
 
 .inputBox {

@@ -9,7 +9,7 @@ export function TodoItem({complited, id, title, toggleTodo, deleteTodo}) {
         <span className="fake"></span>
       </label>
       <div className="todoText">{title}</div>
-      <button onClick={() => deleteTodo(id)} className='deliteBtn'>-</button>
+      <button onClick={() => deleteTodo(id)} className='deliteBtn'></button>
     </div>
   )
 }

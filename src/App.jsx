@@ -31,9 +31,8 @@ function App() {
     setTodo(currentTodos => {
       return currentTodos.map(todo => {
         if (todo.id === id) {
-          return { ...todo, complited }
+          return { ...todo, complited}
         }
-
         return todo
       })
     })
